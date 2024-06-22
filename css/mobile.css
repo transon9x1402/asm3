@@ -1,0 +1,70 @@
+@media screen and (max-width: 767px) {
+  /* định dạng banner */
+  .banner {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+      url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 450px;
+    width: 100%;
+  }
+  /* định dạng navbar */
+  .img-avatar {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+  .navbar-item {
+    display: block;
+    width: 100%;
+    text-align: start;
+    height: 40px;
+  }
+  .person {
+    width: 0px;
+    height: 0px;
+  }
+  /* định dạng mục thông tin cá nhân */
+  .infotarget {
+    grid-template-columns: 1fr;
+  }
+  /* định dạng thông tin nghề nghiệp */
+  .person-info {
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  /* định dạng phần chứng chỉ - giải thưởng */
+  .certificate {
+    margin: 0px;
+  }
+  .certificate-content {
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  .card {
+    display: block;
+  }
+  .card img {
+    width: 100%;
+  }
+  /* định dạng phần dự án */
+  .project-container {
+    margin: 0px;
+  }
+  .section-project-content {
+    grid-template-columns: 1fr;
+  }
+  /* định dạng phần liên hệ */
+  .footer-content {
+    gap: 0px;
+  }
+  .footer-content i {
+    font-size: 200%;
+  }
+  .footer-content span {
+    display: none;
+    width: 0px;
+  }
+}
